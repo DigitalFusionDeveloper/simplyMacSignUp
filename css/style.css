@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Gotham-Thin';
+    src: url('../fonts/Gotham-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.ttf');
+}
+
+body {
+    margin-top: 0;
+    font-family: "Gotham-Thin";
+}
+
+form div {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+div:first-child {
+    margin-top: 2rem;
+}
+
+div:last-child {
+    text-align: center;
+}
+
+input, button {
+    font-family: "Gotham-Thin";
+    font-size: 1.25rem;
+    min-height: 48px;
+}
+
+input {
+    background-color: #E9E9E9;
+    border-radius: 3px;
+    border: none;
+    width: 90%;
+    padding-left: 15px;
+}
+
+input:focus {
+    outline-color: #40ae49;
+}
+
+.error {
+    color: red;
+    width: 90%;
+    text-align: left;
+    margin: 0.25rem auto 0 auto;
+    min-height: 1rem;
+}
+
+button {
+    font-family: "Gotham-Medium";
+    padding: 0.75rem;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid #40ae49;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #40ae49;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.top-bar {
+    border-top: 5px solid #40ae49;
+}
+
+figure {
+    text-align: center;
+}
+
+.logo {
+    margin: 1.25rem;
+}
+
+hr {
+    margin-bottom: 1rem;
+    border: 0;
+    height: 9px;
+    background-image: linear-gradient(to top, #fff, rgba(217, 217, 217, 1));
+}
+
+@media screen and (min-width: 500px) {
+    input, .error {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    input, .error {
+        width: 25%;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simply Mac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="pageContainer" class="top-bar">
+        <figure>
+            <img class="logo" src="images/simplymac-logo.png" alt="Simply Mac">
+        </figure>
+        <hr>
+        <form novalidate id="form">
+            <div>
+                <input autofocus placeholder="First Name*" aria-label="First Name" id="firstName" type="text" name="firstName">
+                <p class="error"></p>
+            </div>
+            <div>
+                <input placeholder="Last Name*" aria-label="Last Name" id="lastName" type="text" name="lastName">
+                <p class="error"></p>
+            </div>
+            <div>
+                <input placeholder="Zip Code*" aria-label="Zip Code" id="zipCode" type="text" name="zipCode">
+                <p class="error"></p>
+            </div>
+            <div>
+                <input placeholder="Email Address*" aria-label="Email Address" id="emailAddress" type="text" name="emailAddress">
+                <p class="error"></p>
+            </div>
+            <div>
+                <button aria-label="Submit" type="submit" name="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <<script src="js/validate.js"></script>
+</body>
+
+</html>
