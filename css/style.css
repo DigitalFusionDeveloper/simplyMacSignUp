@@ -88,6 +88,7 @@ hr {
     margin-bottom: 1rem;
     border: 0;
     height: 9px;
+    background-image: -webkit-linear-gradient(bottom, #fff, rgba(217, 217, 217, 1));
     background-image: linear-gradient(to top, #fff, rgba(217, 217, 217, 1));
 }
 
